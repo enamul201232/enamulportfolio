@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">MyPortfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight">MD Enamul Hoque</span></h1>
+            <p>A passionate web developer</p>
+            <a href="#about" class="btn">Learn More About Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="images/your-photo.jpg" alt="Your Name">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I’m MD Enamul Hoque, a passionate and detail-oriented programmer with a 
+                        background in Chemical Engineering and a growing expertise in Python and 
+                        problem solving. I specialize in creating clean, efficient code and building
+                         solutions that are both logical and practical. With a strong commitment to
+                          continuous learning and self-discipline, I am actively building my skills
+                           to deliver reliable, freelance-ready software and automation solutions. 
+                           My goal is to work remotely, solve real-world problems, and grow into a 
+                           dependable contributor in the tech space.</p>
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2>My Certificates</h2>
+            <div class="certificate-grid">
+                <div class="certificate-item">
+                    <img src="images/certificate1.jpg" alt="Certificate 1">
+                    <div class="certificate-info">
+                        <h3>Web Development Fundamentals</h3>
+                        <p>Issued by: Online Academy</p>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <img src="images/certificate2.jpg" alt="Certificate 2">
+                    <div class="certificate-info">
+                        <h3>JavaScript Mastery</h3>
+                        <p>Issued by: Coding Institute</p>
+                    </div>
+                </div>
+                <!-- Add more certificates as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div id="form-status"></div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
